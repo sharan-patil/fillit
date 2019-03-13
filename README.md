@@ -1,3 +1,4 @@
+<pre>
 # fillit
 Tetriminos are the individual blocks in the classic tetris game.
 Examples:
@@ -31,3 +32,4 @@ Output of the above file:
  BBBB
 
 This project uses an iterative backtracking algorithm which works in a 2d array of integers with the tetriminos' coordinates as values. This implementation is much faster than working with character arrays as every step in the backtracking algorithm involves just integer addition. The coordinates of all the teriminos are saved into a global variable after the characters are read from the input file.
+</pre>
